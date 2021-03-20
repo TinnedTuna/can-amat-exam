@@ -16,9 +16,16 @@ test-taking or exam-taking.
 
 ## Usage
 
+To generate a random set of 20 questions:
+
 ```
 ./generate.sh
 ```
+
+### Arguments
+
+  1. `-n QUESTION_COUNT` lets you choose how many questions are on the exam. 
+     `QUESTION_COUNT` must be an integer between 1 and 1,000.
 
 ## Bugs/Limits
 
@@ -29,16 +36,13 @@ test-taking or exam-taking.
   2. There's only one question per page. I'll make a later version put 2 or 3
      questions on one page.
 
-  3. There's no way to ask for a longer or shorter exam. I'll add args in a
-     later version.
-
-  4. There's no way to change the output location. I'll add args in a later
+  3. There's no way to change the output location. I'll add args in a later
      version.
 
-  5. No page numbers. It can be hard to tell if you've got all of the pages
+  4. No page numbers. It can be hard to tell if you've got all of the pages
      printed. I'll add page numbers in a later version.
 
-  6. It doesn't match the real exam question distribution! Yup. I might fix
+  5. It doesn't match the real exam question distribution! Yup. I might fix
      this in a later version, or give the option to "switch things up"
 
 ## FAQ
